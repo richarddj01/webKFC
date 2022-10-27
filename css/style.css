@@ -1,0 +1,31 @@
+* {
+margin: 0;
+padding: 0;
+}
+#menu {
+    width: 100%;
+    display: table;
+    background-color: #DE0044;
+    margin-bottom: 30px;
+}
+#menu ul li a{
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+#menu ul li a:hover{
+    background-color: #a50031;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+#logoMenu{
+    height: 5%;
+    width: 5%;
+    padding: 10px;
+}
