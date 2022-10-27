@@ -4,7 +4,7 @@ padding: 0;
 }
 #menu {
     width: 100%;
-    display: table;
+    display: block;
     background-color: #DE0044;
     margin-bottom: 30px;
 }
@@ -28,4 +28,60 @@ nav ul li{
     height: 5%;
     width: 5%;
     padding: 10px;
+}
+footer{
+    background-color: #DE5E00;
+    display: block;
+}
+.pie{
+    overflow: hidden;
+    text-decoration: none   ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton{
+    background-color: #F5D4B7;
+    padding: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+}
+footer section{
+    display: inline-block;
+    padding: 20px;
+}
+#izq{
+    padding-top: 40px;
+}
+#izq a{
+    display: block;
+    margin: 10px;
+}
+#centro_izq{
+    vertical-align: top;
+    margin: 10px;
+}
+#centro_der{
+    vertical-align: top;
+    margin: 10px;
+}
+#der{
+    vertical-align: top;
+    width: 10%;
+}
+#copyright{
+    vertical-align: top;
+    margin: 10px;
+    text-align: center;
+}
+.redes_sociales{
+    height:45px;
+    width: 45px;
+    padding: 10px;
+}
+.footer{
+    margin: auto;
+    display:flex;
+    justify-content:center;
 }
