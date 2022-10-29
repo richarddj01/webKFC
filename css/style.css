@@ -93,3 +93,8 @@ footer section{
     margin-top: 10px;
     margin-inline: top;
 }
+#imagenlocal{
+    height: 20%;
+    width: 20%;
+    padding: 40px 60px;
+}
