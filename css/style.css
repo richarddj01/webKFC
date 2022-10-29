@@ -7,6 +7,7 @@ padding: 0;
     display: block;
     background-color: #DE0044;
     margin-bottom: 30px;
+
 }
 #menu ul li a{
     display: block;
@@ -15,6 +16,7 @@ padding: 0;
     overflow: hidden;
     text-decoration: none;
     text-align: center;
+    padding: 5px 50px;
 }
 #menu ul li a:hover{
     background-color: #a50031;
@@ -23,11 +25,12 @@ padding: 0;
 nav ul li{
     display: inline-block;
     padding: 10px;
+    margin: 0 5px;
 }
 #logoMenu{
-    height: 5%;
-    width: 5%;
-    padding: 10px;
+    height: 6%;
+    width: 6%;
+    padding: 5px 30px;
 }
 footer{
     background-color: #DE5E00;
@@ -84,4 +87,9 @@ footer section{
     margin: auto;
     display:flex;
     justify-content:center;
+}
+#buscador{
+    padding: 20px;
+    margin-top: 10px;
+    margin-inline: top;
 }
