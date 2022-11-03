@@ -122,8 +122,8 @@ footer section{
 .fotos {
 	width: 100vw;
 	flex-shrink: 0;
-	animation-name: slide;
-	animation-duration: 20s;
+	animation-name: fotos;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
