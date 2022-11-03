@@ -89,14 +89,13 @@ footer section{
     justify-content:center;
 }
 
-
 #Descripcion_empresa{
    width: 50%;
    
 }
 #contenedor2 section{
     display: inline-block;
-    padding: 5%;
+    padding: 3%;
     vertical-align: middle;
 }
 
