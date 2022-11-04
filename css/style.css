@@ -2,12 +2,48 @@
 margin: 0;
 padding: 0;
 }
+
 #menu {
     width: 100%;
-    display: block;
+    display: inline-block;
     background-color: #DE0044;
     margin-bottom: 30px;
-
+    align-items: center;
+}
+#logo{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+}
+#derechadellogo{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    width: 800px;
+}
+#txtbuscador{
+    height: 30px;
+    width: 200px;
+    border: none;
+}
+#btnbuscar{
+    height: 30px;
+    width: 80px;
+    background-color: #DE5E00;
+    border: none;
+    margin-left: -4;
+}
+.centrarhorizontal{
+    justify-content: center;
+}
+#listamenu{
+    align-items: center;
+    width: 100%;
+}
+#x{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 #menu ul li a{
     display: block;
@@ -15,8 +51,9 @@ padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
     text-decoration: none;
+    width: 190px;
     text-align: center;
-    padding: 5px 50px;
+    padding: 10px 0 10px 0;
 }
 #menu ul li a:hover{
     background-color: #a50031;
@@ -24,12 +61,11 @@ padding: 0;
 }
 nav ul li{
     display: inline-block;
-    padding: 10px;
-    margin: 0 5px;
 }
 #logoMenu{
-    height: 6%;
-    width: 6%;
+    height: 80px;
+    width: 80px;
+    margin: 0px;
     padding: 5px 30px;
 }
 footer{
@@ -111,7 +147,9 @@ footer section{
         100% { transform: translateX(-500%);  
         
     }}
-
+#slidercontenedor{
+    height: 400px;
+}
 #Slider{
  position: relative;
 }
@@ -123,14 +161,14 @@ footer section{
 	width: 100vw;
 	flex-shrink: 0;
 	animation-name: fotos;
-	animation-duration: 10s;
+	animation-duration: 60s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
 .fotos img{
     width: 100%;
     vertical-align: top;
-
+    height: 50%;
 }
 #Descripcion_empresa{
    width: 50%;
