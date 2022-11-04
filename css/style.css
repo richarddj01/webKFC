@@ -152,6 +152,7 @@ footer section{
 }
 #Slider{
  position: relative;
+ overflow: hidden;
 }
 #imagenes{
  position: relative;
