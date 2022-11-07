@@ -106,8 +106,9 @@ footer section{
     margin: 10px;
 }
 #der{
+    display: inline-block;
     vertical-align: top;
-    width: 10%;
+    width: 200px;
 }
 #copyright{
     vertical-align: top;
@@ -157,7 +158,7 @@ footer section{
 #imagenes{
  position: relative;
  display: flex;
-  }
+}
 .fotos {
 	width: 100vw;
 	flex-shrink: 0;
