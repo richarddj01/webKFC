@@ -1,0 +1,68 @@
+#Contenido{
+    background-color: #F3D0F7;
+    display: flex;
+    align-content: center;
+    padding: 30px;
+    font-family: 'Arial';
+    font-weight: bold;
+}
+
+#Formulario{
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+.textbox{
+    height: 30px;
+    width: 300px;
+}
+#Mensaje{
+    height: 30px;
+    width: 1100px;
+}
+.botones{
+    height: 40px;
+    width: 150px;
+    background-color: #FFAA00;
+    border: none;
+    color: white;
+    font-family: 'Arial';
+    font-weight: bold;
+    overflow: hidden;
+    text-decoration: none;
+}
+#btnEnviar{
+    margin-top: 20px;
+    float: right;
+}
+#superior{
+    display: flex;
+    padding: 60px;
+    padding-bottom: 0;
+}
+#superior_izq{
+    width: 50%;
+}
+#superior_der{
+    width: 50%;
+
+}
+#centro{
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#inferior{
+    display: flex;
+    padding: 60px;
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+#inferior_izq{
+    width: 50%;
+}
+#inferior_der{
+    width: 50%;
+}

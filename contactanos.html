@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contactanos.css">
     <title>KFC</title>
 </head>
 <body>
@@ -31,20 +32,55 @@
     </header>
     <main id="Contenido">
         <section id="Formulario">
-            <form action="" method="get"></form>
-            <label for="Nombre">Nombre: </label><br>
-            <input type="text" name="Nombre" id="Nombre" value="">
-            <br>
-            <label for="Telefono">Telefono: </label><br>
-            <input type="text" name="Telefono" id="Telefono" value="">
-            <br>
-            <label for="Mensaje">Mensaje: </label><br>
-            <input type="text" name="Mensaje" id="Mensaje" value="">
-            <br>
-            <label for="Correo Electronico">Correo Electronico: </label><br>
-            <input type="text" name="Correo" id="Correo" value="">
-            <br>
-            <button>Enviar</button>
+            <div id="superior">
+                <div id="superior_izq">
+                    <form action="" method="get"></form>
+                    <label for="Nombre">Nombre: </label><br>
+                    <input type="text" name="Nombre" id="Nombre" value="" class="textbox">
+                    <br>
+                    <br>
+                    <label for="Telefono">Telefono: </label><br>
+                    <input type="text" name="Telefono" id="Telefono" value="" class="textbox">
+                    <br>
+                    <br>
+                    <label for="Correo Electronico">Correo Electronico: </label><br>
+                    <input type="text" name="Correo" id="Correo" value="" class="textbox">
+                    <br>
+                    <br>
+                </div>
+                <div id="superior_der">
+                    <label for="País" id="depto">País</label><br>
+                    <select name="opcionMensaje" id="opcionMensaje" class="textbox">
+                        <option value="">Seleccione su país</option>
+                        <option value="cr">Costa Rica</option>
+                        <option value="sv">El Salvador</option>
+                        <option value="gt">Guatemala</option>
+                        <option value="hn">Honduras</option>
+                        <option value="nc">Nicaragua</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="Sexo">Sexo:</label><br><br>
+                    <input type="radio" name="Masculino" id="rbMasculino" value="1"> M |
+                    <input type="radio" name="Femenino" id="rbFemenino" value="2"> F
+                    <br>
+                </div>
+            </div>
+            <div id="centro">
+                <label for="Mensaje">Mensaje: </label><br>
+                <input type="text" name="Mensaje" id="Mensaje" value="">
+                <br>
+            </div>
+            <div id="inferior">
+                <div id="inferior_izq">
+                    <br>
+                    <input type="checkbox" name="opcionMensaje" id="op">
+                    <label for="checkbox">Deseo recibir una copia de este mensaje</label>
+                </div>
+                <div id="inferior_der">
+                    <button id="btnEnviar" class="botones">Enviar</button>
+                </div>
+            </div>
         </section>
     </main>
 

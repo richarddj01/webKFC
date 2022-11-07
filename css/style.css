@@ -7,7 +7,6 @@ padding: 0;
     width: 100%;
     display: inline-block;
     background-color: #DE0044;
-    margin-bottom: 30px;
     align-items: center;
 }
 #logo{
@@ -29,7 +28,7 @@ padding: 0;
 #btnbuscar{
     height: 30px;
     width: 80px;
-    background-color: #DE5E00;
+    background-color: #DE5E0D;
     border: none;
     margin-left: -4;
 }
