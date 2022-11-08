@@ -1,4 +1,13 @@
 #Contenido{
-    background-image: url("../img/Local.jpg");
-
+    background-color: #F3D0F7;
+    display: flex;
+    align-content: center;
+    padding: 30px;
+}
+#ContenidoImagen{
+    background-image: url("../img/Local123.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
 }
