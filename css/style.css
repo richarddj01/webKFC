@@ -136,26 +136,25 @@ footer section{
 
 
 
-     @keyframes fotos {
-        0% { transform: translateX(0); }
-        10% { transform: translateX(0); }
+@keyframes fotos {
+    0% { transform: translateX(0); }
+    10% { transform: translateX(0); }
     
-        15% { transform: translateX(-100%); }
-        30% { transform: translateX(-100%); }
+    15% { transform: translateX(-100%); }
+    30% { transform: translateX(-100%); }
+
+    35% { transform: translateX(-200%); }
+    50% { transform: translateX(-200%); }
     
-        35% { transform: translateX(-200%); }
-        50% { transform: translateX(-200%); }
+    55% { transform: translateX(-300%); }
+    70% { transform: translateX(-300%); }
     
-        55% { transform: translateX(-300%); }
-        70% { transform: translateX(-300%); }
+    75% { transform: translateX(-400%); }
+    90% { transform: translateX(-400%); }
     
-        75% { transform: translateX(-400%); }
-        90% { transform: translateX(-400%); }
-    
-        95% { transform: translateX(-500%); }
-        100% { transform: translateX(-500%);  
-        
-    }}
+    95% { transform: translateX(-500%); }
+    100% { transform: translateX(-500%); }
+}
 #slidercontenedor{
     height: 400px;
 }
