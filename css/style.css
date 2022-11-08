@@ -17,7 +17,7 @@ padding: 0;
 #derechadellogo{
     display: inline-block;
     position: relative;
-    height: 100px;
+    height: 130px;
     width: 100%;
 }
 #txtbuscador{
@@ -52,7 +52,9 @@ padding: 0;
 #menu ul li a{
     display: inline-block;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 14pt;
     overflow: hidden;
     text-decoration: none;
     width: 280px;
@@ -193,6 +195,6 @@ footer section{
     height: 50%;
 }
 #barrabusqueda{
-    padding: 15px 0 0 20px;
+    padding: 25px 0 0 20px;
     display: flex;
 }
