@@ -1,0 +1,11 @@
+#tabla{
+    height: 100%;
+    margin: auto;
+}
+.imagen{
+    height: 400px;
+    width: 400px;
+}
+#Contenido{
+    background-color: #F3D0F7;
+}
