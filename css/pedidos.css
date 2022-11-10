@@ -12,18 +12,23 @@
     height: 800px;
     display: flex;
 }
-#Combos{
+.botonx{
     width: 33.33%;
     height: 100%;
     display: inline-block;
+    border: 1px solid #420014;
+    background-color: #DE0044;
+    opacity: 40%;
+    color: white;
+}
+.botonx:hover{
+    opacity: 90%;
+}
+#Combos{
 }
 #Complementos{
-    width: 33.33%;
-    height: 100%;
-    display: inline-block;
+    
 }
 #Postres{
-    width: 33.33%;
-    height: 100%;
-    display: inline-block;
+    
 }
