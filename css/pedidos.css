@@ -9,26 +9,34 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 525px;
     display: flex;
 }
+
 .botonx{
     width: 33.33%;
     height: 100%;
     display: inline-block;
-    border: 1px solid #420014;
-    background-color: #DE0044;
-    opacity: 40%;
+    border: 2px solid white;
+    background-color: #de004359;
     color: white;
 }
 .botonx:hover{
-    opacity: 90%;
+    background-color: #DE0044;
 }
-#Combos{
+.botonx a{
+    overflow: hidden;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+    color: white;
+    opacity: 100%;
+
+    text-align: center;
 }
-#Complementos{
-    
-}
-#Postres{
-    
+.botonx a p{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 24pt;
+    padding-top: 55%;
 }

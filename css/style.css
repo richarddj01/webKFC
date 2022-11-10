@@ -112,6 +112,8 @@ footer section{
 #centro_der{
     vertical-align: top;
     margin: 10px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
 }
 #der{
     display: inline-block;

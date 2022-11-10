@@ -1,0 +1,67 @@
+.opciones {
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    height: 400px;
+    width: 300px;
+    border-color: black;
+    border-width: 2px;
+    border-style: groove;
+    border-radius: 10%;
+    background-color: #FFF1E2;
+ }
+
+.opciones img {
+    margin-top: 20px;
+    position: relative;
+    top: 0px;
+    height: 250px;
+    width: 300px;
+ }
+
+.opciones h3 {
+    position: relative;
+text-align: center;
+    color: #A3080B;
+ }
+
+.opciones  p {
+    position: relative;
+    left: 5px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+ }
+
+ .opciones:hover {
+    border-width: 5px;
+ }
+
+ #combo1{
+    top: 160px;
+    left: 100px;
+ }
+ #combo2{
+    top: 160px;
+    left: 500px;
+ }
+ #combo3{
+    top: 160px;
+    left: 900px;
+ }
+ #combo4{
+    top: 600px;
+    left: 100px;
+ }
+ #combo5{
+    top: 600px;
+    left: 500px;
+ }
+ #combo6{
+    top: 600px;
+    left: 900px;
+ }
+ #Contenido{
+    height: 910px;
+    background: #F3D0F7;
+ }
