@@ -10,4 +10,20 @@
     background-size: cover;
     width: 100%;
     height: 800px;
+    display: flex;
+}
+#Combos{
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+#Complementos{
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
+}
+#Postres{
+    width: 33.33%;
+    height: 100%;
+    display: inline-block;
 }
