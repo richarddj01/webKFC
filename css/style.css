@@ -28,9 +28,15 @@ padding: 0;
 #btnbuscar{
     height: 30px;
     width: 80px;
-    background-color: #DE5E0D;
+    background-color: #f07326;
     border: none;
     margin-left: -4;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+}
+#btnbuscar:hover{
+    background-color: #DE5E00;
 }
 .centrarhorizontal{
     justify-content: center;
@@ -156,10 +162,19 @@ footer section{
 }
 #slidercontenedor{
     height: 400px;
+    width: 95%;
+    margin: auto;
+    padding: 30px;
 }
 #Slider{
- position: relative;
- overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+#contenedor2{
+    background-color: black;
+    margin: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #imagenes{
  position: relative;
@@ -180,12 +195,16 @@ footer section{
 }
 #Descripcion_empresa{
    width: 50%;
-   
+   color: white;
 }
 #contenedor2 section{
     display: inline-block;
-    padding: 3%;
+    padding: 30px;
     vertical-align: middle;
+    text-align: justify;
+    font-family: arial;
+    font-weight: bold;
+    line-height: 150%;
 }
 #buscador{
     width: 100%;
@@ -203,4 +222,8 @@ footer section{
 #contenidoQS{
     padding:20px 30px 40px 30px;
     text-align: center;
+}
+#ContenidoInicio{
+    background-color: #F3D0F7;  
+    padding-bottom: 30px;
 }
