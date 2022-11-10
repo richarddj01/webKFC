@@ -12,13 +12,12 @@
     height: 525px;
     display: flex;
 }
-
 .botonx{
     width: 33.33%;
     height: 100%;
     display: inline-block;
     border: 2px solid white;
-    background-color: #de004359;
+    background-color: #de004328;
     color: white;
 }
 .botonx:hover{
