@@ -4,9 +4,9 @@
     left: 230px;
     height: 400px;
     width: 300px;
-    border-color: black;
+    border-color: #a50031;
     border-width: 2px;
-    border-style: groove;
+    border-style:solid;
     border-radius: 10%;
     background-color: #FFF1E2;
  }
@@ -21,7 +21,7 @@
 
 .opciones h3 {
     position: relative;
-text-align: center;
+   text-align: center;
     color: #A3080B;
  }
 
@@ -34,7 +34,7 @@ text-align: center;
  }
 
  .opciones:hover {
-    border-width: 5px;
+    border-width: 3px;
  }
 
  #combo1{

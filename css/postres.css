@@ -1,7 +1,15 @@
 #tabla{
-
+    margin: auto;
+    border-collapse: collapse;
+}
+#Contenido{
+    padding: 40px;
 }
 .imagen{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+}
+#tabla tr td{
+    border: 2px solid black;
+    text-align: center;
 }
